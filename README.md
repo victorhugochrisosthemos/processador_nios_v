@@ -52,7 +52,6 @@
 
 
 ## 2. Ambiente de Desenvolvimento
-
 - Com o Nios V, você pode fazer configuração de hardware no FPGA e programar software embarcado
 - Você pode usar o Intel Quartus Prime's “Platform Designer” para incorporar Nios V e periféricos e gerar um BSP (Board Support Package)
 - O módulo Platform Designer permite fazer a integração de IPs (Intelectual Property - blocos de hardware que podem ser de outros fabricantes)
@@ -63,14 +62,15 @@
 - Intel HAL (Hardware Abstraction Layer) é uma camada de software que facilita a comunicação entre o sistema operacional e o hardware do FPGA
 
 ### 2.1. RiscFree
-- O RiscFree IDE fornece um ambiente para desenvolvimento de software em C e C++ e tem as seguintes características:
-・ IDE baseado em CDT Eclipse* com suporte completo de criação, edição, compilação e depuração de código-fonte e projeto usando a cadeia de ferramentas RISC-V GNU compilador collection (GCC)
-・ Gerente de Projeto e Build Manager, incluindo suporte a Make e CMake com importação, compilação e depuração de estruturas de aplicativos criadas usando o Intel Quartus Prime software
-・ Cadeia de ferramentas RISC-V GNU GCC com suporte para bibliotecas de tempo de execução newlib ou picolibc usando Nios V API de Camada de Abstração de Hardware (HAL) para acesso a hardware
-・ Apoio integrado para Intel® FPGA Baixar Cabo II sonda de depuração JTAG
-・ Suporte de depuração baseado em ROM ou RAM, por exemplo, pontos de interrupção de hardware para suporte baseado em flash
-・ Visualizador de Registros de Alto Nível baseado em arquivos padrão do setor System View Description (SVD)
-・ Terminal serial integrado
+![image](https://github.com/user-attachments/assets/aa2a19bb-b075-4247-9bf6-6845264736e3)
+- O RiscFree IDE fornece um ambiente para desenvolvimento de software em C e C++
+- IDE baseado em CDT Eclipse* com suporte completo de criação, edição, compilação e depuração de código-fonte e projeto usando a cadeia de ferramentas RISC-V GNU compilador collection (GCC)
+- Gerente de Projeto e Build Manager, incluindo suporte a Make e CMake com importação, compilação e depuração de estruturas de aplicativos criadas usando o Intel Quartus Prime software
+- Cadeia de ferramentas RISC-V GNU GCC com suporte para bibliotecas de tempo de execução newlib ou picolibc usando Nios V API de Camada de Abstração de Hardware (HAL) para acesso a hardware
+- Apoio integrado para Intel FPGA Baixar Cabo II sonda de depuração JTAG
+- Suporte de depuração baseado em ROM ou RAM, por exemplo, pontos de interrupção de hardware para suporte baseado em flash
+- Visualizador de Registros de Alto Nível baseado em arquivos padrão do setor System View Description (SVD)
+- Terminal serial integrado
 
 
 
