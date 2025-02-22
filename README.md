@@ -27,7 +27,7 @@
 - Conjunto de instruções RV32IZicsr (pipeline) e RV32IZicsr (não-pipeline)
 
 #### 1.2.1. Diferença entre processador e microcontrolador
-- Se precisar de eficiência para um processameto especídifico, use um microcontrolador
+- Se precisar de eficiência para um processameto específico, use um microcontrolador
 - Se precisar de desempenho e maior flexibilidade, use um processador
 - Um microcontrolador possui processador, memória e periféricos
 - O processador limita-se à unidade central de processamento que depende de componentes externos para funcionar
@@ -41,3 +41,29 @@
 - Esse tipo de aplicação pode usar processar dados com ou sem pipeline. Com pipeline haverá melhor desempenho porque irá segmentar um processo e executar as intruções em partes diferentes do processar. Não utilizar pipeline vai definir um padrão sequencial de processamento, é considerável em cenário em que tamano e energia são pontos importantes
   
 ### 1.3.Nios V/c
+![NiosV-Ce](https://github.com/user-attachments/assets/8230b154-ab77-41c0-aee1-53f6854125f6)
+- É um microcontrolador compacto, projetado para aplicações de controle que não exigem alto desempenho ou muitos recursos de processamento
+- O consumo de recursos do FPGA precisa ser mínimo
+- Conjunto de instruções RV32I, sem extensões para multiplicação, ponto flutuante
+- Não há suporte para debug via JTAG ou para ferramentas de rastreamento de execução
+    -> Isso significa que ele não pode parar a execução de uma tarefa para atender eventos externos, como uma entrada de sensor ou um timer
+    -> Ele é adequado para tarefas contínuas e previsíveis, como controle de atuadores ou lógica simples de automação
+- Recomendado para tarefas simples e previsíveis com lógica básica, ascender LED, etc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
