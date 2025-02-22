@@ -84,21 +84,25 @@ utilizando Quartus Prime para configurar e programar o FPGA e o RiscFree para de
 #### 2.3.1. Baixando e instalando o Software de projeto Intel® Quartus® Prime Lite Edition versão 23.1.1 para Windows
 - [Site da Intel com o download](https://www.intel.com.br/content/www/br/pt/software-kit/825278/intel-quartus-prime-lite-edition-design-software-version-23-1-1-for-windows.html)
 - Ao baixar, selecione os módulos de desenvolvimento necessários
+- Depois de feito, a IDE RiscFree terá sido instalada também
 
 
 <!-- 
 - Quando se pensa em automatização com hardware, considera-se o uso de FPGA's para customizar circuitos integrados
-- O uso do Nios V em FPGA pode ser uma solução mais econômica do que projetar um processador ASIC (Application-Specific Integrated Circuit)
+- O mercado de FPGA's no mundo é de bilhões de dólares com projeção de crescimento com aplicações em cenários como Agronegócio, Big Data, Smart Cities, Indústrica 4.0, Inteligência Artificial, IoT, Segurança e Saúde
+- Sobre o ecossistema FPGA, no Brasil temos a Empresa Macnica, distribuidora de FPGA da Intel no país, capacitada também a promover cursos através de seu site para desenvolvedores
+- Nesse contexto, desenvolver FPGA utilizando o processador Nios V é vantajoso
+- Existem versões do processador voltados para Sistemas Embarcados e Microcontroladores Compactos
 - Além disso, o fato do Nios V ser baseado arquitetura RISC-V permite o uso sem pagar licenciamento, podendo também adicionar instruções no processador, extensões como criptografia, etc
-- A tendência é de que até 2029 o mercado de FPGA chegue a mais de 12 bilhões de dólares, impulsionado pela alta implantação de data centers e demanda de IoT
-- Sobre o ecossistema IoT, no Brasil temos a Empresa Macnica
+- O uso do Nios V em FPGA pode ser uma solução mais econômica do que projetar um processador ASIC (Application-Specific Integrated Circuit)
+
 
 
 Links:
 
-De acordo com tendência e previsões de crescimento de 2024 até 2029 pela Mordor Intelligence
+https://blog.macnicadhw.com.br/fabricantes/tecnologia-fpga-mercado-brasileiro/
+https://www.businessresearchinsights.com/pt/market-reports/medium-density-fpga-market-114251
 https://www.mordorintelligence.com/pt/industry-reports/field-programmable-gate-array-fpga-market
-
 
 
 
