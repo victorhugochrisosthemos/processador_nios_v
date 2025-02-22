@@ -1,4 +1,5 @@
 # Nios V
+![nios-v-blog-graphic](https://github.com/user-attachments/assets/1f35953b-1c1e-40ae-8088-1629803329d3)
 - Nios V é um processador de arquitetura RISC-V da Intel utilizado em FPGA’s, permitindo a customização de projetos de hardware
 - Faz parte da geração softcore da Intel
 - Nios V é isento de direitos autorais
@@ -61,8 +62,15 @@
 - O Ashling RiscFree IDE é uma IDE de arquitetura de processadores RISC-V
 - Intel HAL (Hardware Abstraction Layer) é uma camada de software que facilita a comunicação entre o sistema operacional e o hardware do FPGA
 
-### 2.1. RiscFree
-![image](https://github.com/user-attachments/assets/aa2a19bb-b075-4247-9bf6-6845264736e3)
+### 2.1. RiscFree e Intel Quartus Prime
+- O RiscFree é um ambiente de desenvolvimento (IDE) focada no desenvolvimento de software embarcado para RISC-V
+- O Intel Quartus Prime é uma ferramenta EDA (Electronic Design Automation) da Intel usada para projetar e <br>
+programar FPGAs. Com ele pode criar, gerar simulações e implementar circuitos digitais em FPGA com linguagens de descrição de hardware VHDL e Verilog
+- Se você estiver usando uma FPGA Intel com um núcleo RISC-V, você pode usar tanto o RiscFree quanto o Intel Quartus Prime, <br>
+utilizando Quartus Prime para configurar e programar o FPGA e o RiscFree para desenvolver e depurar código para o processador RISC-V dentro da FPGA.
+
+### 2.2. RiscFree
+
 - O RiscFree IDE fornece um ambiente para desenvolvimento de software em C e C++
 - IDE baseado em CDT Eclipse* com suporte completo de criação, edição, compilação e depuração de código-fonte e projeto usando a cadeia de ferramentas RISC-V GNU compilador collection (GCC)
 - Gerente de Projeto e Build Manager, incluindo suporte a Make e CMake com importação, compilação e depuração de estruturas de aplicativos criadas usando o Intel Quartus Prime software
@@ -72,8 +80,10 @@
 - Visualizador de Registros de Alto Nível baseado em arquivos padrão do setor System View Description (SVD)
 - Terminal serial integrado
 
-
-
+### 2.3. Intel Quartus Prime
+#### 2.3.1. Baixando e instalando o Software de projeto Intel® Quartus® Prime Lite Edition versão 23.1.1 para Windows
+- [Site da Intel com o download](https://www.intel.com.br/content/www/br/pt/software-kit/825278/intel-quartus-prime-lite-edition-design-software-version-23-1-1-for-windows.html)
+- Ao baixar, selecione os módulos de desenvolvimento necessários
 
 
 
