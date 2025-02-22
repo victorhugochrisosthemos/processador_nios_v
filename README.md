@@ -1,9 +1,11 @@
 # Nios V
+- Nios V é um processador de arquitetura RISC-V da Intel utilizado em FPGA’s, permitindo a customização de projetos de hardware
 - Faz parte da geração softcore da Intel
 
 ## 1. Versões do processador
 
 ### 1.1. Nios V/g
+![NiosV-Ge](https://github.com/user-attachments/assets/0720a4f0-8542-4dd6-ac52-04891c6499c7)
 - Processador de propósito geral, referência ao "g" de general
 - Possui desempenho suporior às outras versões de processador Nios V
 - Conjunto de instruções RISC-V utilizada é RV32IM(F)Zicsr_Zicbom
