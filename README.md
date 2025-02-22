@@ -86,6 +86,15 @@ utilizando Quartus Prime para configurar e programar o FPGA e o RiscFree para de
 - Ao baixar, selecione os módulos de desenvolvimento necessários
 - Depois de feito, a IDE RiscFree terá sido instalada também
 
+## 3. Fluxo de Design
+![nios-v-processor-design-flow-diagram_1920-1080](https://github.com/user-attachments/assets/ac84c855-d894-4c09-b68d-614ac4dfbcb0)
+
+- O fluxo de desenvolvimento do processador Nios® V consiste em três elementos:
+    -> Projeto do sistema, envolvendo hardware e software
+•	Design de hardware
+•	Design de software
+
+
 
 <!-- 
 - Quando se pensa em automatização com hardware, considera-se o uso de FPGA's para customizar circuitos integrados
