@@ -1,5 +1,5 @@
 # [Nios V](https://www.macnica.co.jp/en/business/semiconductor/manufacturers/altera/products/141802/)
-![nios-v-blog-graphic](https://github.com/user-attachments/assets/1f35953b-1c1e-40ae-8088-1629803329d3)
+![nios-v-blog-graphic]([https://github.com/user-attachments/assets/1f35953b-1c1e-40ae-8088-1629803329d3](https://www.intel.com.br/content/www/br/pt/products/details/fpga/intellectual-property/processors-peripherals/niosv.html))
 - Nios V é um processador de arquitetura RISC-V da Intel utilizado em FPGA’s, permitindo a customização de projetos de hardware
 - Faz parte da geração softcore da Intel
 - Nios V é isento de direitos autorais
@@ -135,6 +135,14 @@ utilizando Quartus Prime para configurar e programar o FPGA e o RiscFree para de
 -> [Arria® 10 FPGA - Design de Servidor de Soquete Simples para Processador Nios V/m](https://www.intel.com/content/www/us/en/design-example/791231/intel-arria-10-fpga-simple-socket-server-design-for-nios-v-m-processor.html)<br>
 -> [Arria® 10 FPGA - uC/OS-II RTOS com Iperf para Processador Nios V/m](https://www.intel.com/content/www/us/en/design-example/787050/intel-arria-10-fpga-c-os-ii-rtos-with-iperf-for-nios-v-m-processor.html)
 
+# ... Em progresso
+
+
+## Links úteis
+- [Intel Nios V](https://www.intel.com.br/content/www/br/pt/products/details/fpga/intellectual-property/processors-peripherals/niosv.html)
+- [Macnica Nios V](https://www.intel.com.br/content/www/br/pt/products/details/fpga/intellectual-property/processors-peripherals/niosv.html)
+- [Suporte Intel](https://www.intel.com.br/content/www/br/pt/support/programmable/support-resources/intellectual-property/intellectual-property.html)
+- [Desenvolvedores de Nios V](https://www.intel.com.br/content/www/br/pt/support/programmable/support-resources/support-centers/nios-v-support.html)
 
 
 <!-- 
