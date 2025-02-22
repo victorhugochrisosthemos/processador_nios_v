@@ -89,10 +89,23 @@ utilizando Quartus Prime para configurar e programar o FPGA e o RiscFree para de
 ## 3. Fluxo de Design
 ![nios-v-processor-design-flow-diagram_1920-1080](https://github.com/user-attachments/assets/ac84c855-d894-4c09-b68d-614ac4dfbcb0)
 
-- O fluxo de desenvolvimento do processador Nios® V consiste em três elementos:
-    -> Projeto do sistema, envolvendo hardware e software
-•	Design de hardware
-•	Design de software
+- O fluxo de desenvolvimento do processador Nios® V consiste em três elementos:<br>
+--> Projeto do sistema, envolvendo hardware e software<br>
+--> Design de hardware<br>
+--> Design de software<br>
+- Inicie o desenvolvimento do seu processador Nios® V criando um conceito de sistema e realizando uma análise de requisitos de sistema. Em seguida, crie e gere o sistema no Platform Designer e produzirá um arquivo do Platform Designer. O ficheiro Platform Designer inclui núcleos de processador Nios V e componentes padrão. Após a geração do sistema, os fluxos de hardware e software podem ser iniciados
+- Para o desenvolvimento de hardware do processador Nios V, é necessário:<br>
+--> Selecionar o FPGA de destino com base nos requisitos do sistema. Consulte Considerações de Design seção<br>
+--> Integre o sistema Platform Designer com o projeto de software Quartus® Prime<br>
+--> Atribuir locais de pinos<br>
+--> Configurar requisitos de tempo e outras restrições de projeto<br>
+--> Depois de compilar o design do hardware, baixe o arquivo .sof para a placa de destino<br>
+- Para o desenvolvimento de software do processador Nios V, é necessário:<br>
+--> Desenvolva o seu software com as Ferramentas de Processador Nios® V e o IDE Ashling* RiscFree* para Intel® FPGA. O software do processador Nios® V inclui o HAL, controladores periféricos, códigos de aplicação C/C++ do utilizador e bibliotecas personalizadas<br>
+--> Faça o download do ficheiro .elf para o sistema de processador Nios® V na placa de destino depois de criar o pacote de suporte de aplicações e placas (BSP). O sistema de processador Nios® V está pronto para testes e depuração<br>
+- Se verificar que o seu software não cumpre as especificações durante o teste, volte ao início do fluxo de software e verifique os códigos de aplicação, controladores e BSP para corrigir quaisquer erros e garantir que o sistema de processador Nios® V é executado corretamente<br>
+- Se o hardware não atender às especificações, retorne à etapa de definição e geração do sistema Platform Designer e reinicie o fluxo de hardware e software. O arquivo-chave necessário para gerar o software do aplicativo é o arquivo de sistema Platform Designer. Como esse arquivo descreve componentes e conexões de hardware, você deve regenerar esse arquivo se fizer uma alteração de hardware. O sistema está completo quando o software e o hardware atendem às especificações<br>
+
 
 
 
