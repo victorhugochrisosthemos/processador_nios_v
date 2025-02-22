@@ -123,7 +123,7 @@ utilizando Quartus Prime para configurar e programar o FPGA e o RiscFree para de
 
 #### 4.1.2. Nios V/m
 
-- [Exemplo de Design Nios V/m Zephyr - Hello World(https://www.rocketboards.org/foswiki/Documentation/NiosVZephyrDesignExampleHelloWorld)
+- [Exemplo de Design Nios V/m Zephyr - Hello World](https://www.rocketboards.org/foswiki/Documentation/NiosVZephyrDesignExampleHelloWorld)
 - [Exemplo de Design: Arria® 10 FPGA - Nios® V/m Processador Hello World](https://www.intel.com/content/www/us/en/design-example/776196/intel-arria-10-fpga-hello-world-design-on-nios-v-g-processor.html)
 
 ### 4.2. Como executar um processador Nios V com o pacote de software MicroC/TCP-IP?
