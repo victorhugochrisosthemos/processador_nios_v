@@ -101,11 +101,39 @@ utilizando Quartus Prime para configurar e programar o FPGA e o RiscFree para de
 --> Configurar requisitos de tempo e outras restrições de projeto<br>
 --> Depois de compilar o design do hardware, baixe o arquivo .sof para a placa de destino<br>
 - Para o desenvolvimento de software do processador Nios V, é necessário:<br>
---> Desenvolva o seu software com as Ferramentas de Processador Nios® V e o IDE Ashling* RiscFree* para Intel® FPGA. O software do processador Nios® V inclui o HAL, controladores periféricos, códigos de aplicação C/C++ do utilizador e bibliotecas personalizadas<br>
+--> Desenvolva o seu software com as Ferramentas de Processador Nios V e o IDE Ashling RiscFree para Intel FPGA. O software do processador Nios® V inclui o HAL, controladores periféricos, códigos de aplicação C/C++ do utilizador e bibliotecas personalizadas<br>
 --> Faça o download do ficheiro .elf para o sistema de processador Nios® V na placa de destino depois de criar o pacote de suporte de aplicações e placas (BSP). O sistema de processador Nios® V está pronto para testes e depuração<br>
 - Se verificar que o seu software não cumpre as especificações durante o teste, volte ao início do fluxo de software e verifique os códigos de aplicação, controladores e BSP para corrigir quaisquer erros e garantir que o sistema de processador Nios® V é executado corretamente<br>
 - Se o hardware não atender às especificações, retorne à etapa de definição e geração do sistema Platform Designer e reinicie o fluxo de hardware e software. O arquivo-chave necessário para gerar o software do aplicativo é o arquivo de sistema Platform Designer. Como esse arquivo descreve componentes e conexões de hardware, você deve regenerar esse arquivo se fizer uma alteração de hardware. O sistema está completo quando o software e o hardware atendem às especificações<br>
 
+## 4. Hello World
+
+### 4.1. Como executar um processador Nios® V “A aplicação Hello World” no Zephyr RTOS?
+![Block-Diagram](https://github.com/user-attachments/assets/980e98c4-d525-43c1-a0f4-2e3470f827f4)
+- Nessa imagem mostra o processador Nios V/m e a interconexão Avalon
+- A interconexão Avalon (Avalon Interconnect) é um barramento proprietário da Intel, antigamente era da Altera, usado para conectar componentes dentro do FPGA
+- O Zephyr RTOS possui suporte para o Nios V, permitindo que ele seja usado como sistema operacional em plataformas baseadas nesse processador
+- O Zephyr pode ser configurado para se comunicar com os periféricos representados no diagrama, como memória on-chip e comunicação via JTAG UART
+- O Zephyr pode ser usado para facilitar a comunicação entre o host PC e o sistema embarcado na FPGA, utilizando protocolos compatíveis via JTAG UART ou outro meio de depuração
+
+#### 4.1.1. Nios V/g
+
+- [Exemplo de Design Nios® V/g Zephyr - Hello World](https://www.rocketboards.org/foswiki/Documentation/NiosVgZephyrDesignExampleHelloWorld)
+- [Exemplo de Design: Arria® 10 FPGA - Nios® V/g Processador Hello World](https://www.intel.com/content/www/us/en/design-example/776196/intel-arria-10-fpga-hello-world-design-on-nios-v-g-processor.html)
+
+#### 4.1.2. Nios V/m
+
+- [Exemplo de Design Nios V/m Zephyr - Hello World(https://www.rocketboards.org/foswiki/Documentation/NiosVZephyrDesignExampleHelloWorld)
+- [Exemplo de Design: Arria® 10 FPGA - Nios® V/m Processador Hello World](https://www.intel.com/content/www/us/en/design-example/776196/intel-arria-10-fpga-hello-world-design-on-nios-v-g-processor.html)
+
+### 4.2. Como executar um processador Nios V com o pacote de software MicroC/TCP-IP?
+
+- O MicroC/TCP-IP é uma pilha de protocolos TCP/IP otimizada para sistemas embarcados
+- Essa pilha TCP/IP é para rodar em microcontroladores FPGAs, tendo conexões Ethernet ou Wi-Fi com baixo consumo de memória
+- [Processador Nios® V - Utilização da Pilha MicroC/TCP-IP](https://www.intel.com/content/www/us/en/docs/programmable/726952/current/processor-using-the-microc-tcp-ip-stack.html)
+- Exemplos de Design: <br>
+-> [Arria® 10 FPGA - Design de Servidor de Soquete Simples para Processador Nios V/m](https://www.intel.com/content/www/us/en/design-example/791231/intel-arria-10-fpga-simple-socket-server-design-for-nios-v-m-processor.html)<br>
+-> [Arria® 10 FPGA - uC/OS-II RTOS com Iperf para Processador Nios V/m](https://www.intel.com/content/www/us/en/design-example/787050/intel-arria-10-fpga-c-os-ii-rtos-with-iperf-for-nios-v-m-processor.html)
 
 
 
