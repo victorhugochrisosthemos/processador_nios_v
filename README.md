@@ -1,5 +1,8 @@
-# [Nios V](https://www.macnica.co.jp/en/business/semiconductor/manufacturers/altera/products/141802/)
-![nios-v-blog-graphic](https://www.intel.com.br/content/www/br/pt/products/details/fpga/intellectual-property/processors-peripherals/niosv.html)
+# [Nios V](https://www.intel.com.br/content/www/br/pt/products/details/fpga/intellectual-property/processors-peripherals/niosv.html)
+
+![nios-v-blog-graphic](https://github.com/user-attachments/assets/e407f1ac-3645-4be8-ac72-91c45ee0ec75)
+
+
 - Nios V é um processador de arquitetura RISC-V da Intel utilizado em FPGA’s, permitindo a customização de projetos de hardware
 - Faz parte da geração softcore da Intel
 - Nios V é isento de direitos autorais
