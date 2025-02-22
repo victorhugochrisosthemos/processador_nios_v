@@ -51,10 +51,16 @@
 - Recomendado para tarefas simples e previsíveis com lógica básica, ascender LED, etc
 
 
+## 2. Ambiente de Desenvolvimento
 
-
-
-
+- Com o Nios V, você pode fazer configuração de hardware no FPGA e programar software embarcado
+- Você pode usar o Intel Quartus Prime's “Platform Designer” para incorporar Nios V e periféricos e gerar um BSP (Board Support Package)
+- O módulo Platform Designer permite fazer a integração de IPs (Intelectual Property - blocos de hardware que podem ser de outros fabricantes)
+- BSP (Board Support Package) é um conjunto de drivers e bibliotecas que permite que o software embarcado interaja com o hardware corretamente
+- Construção de aplicativos: interface de linha de comando ou IDE baseado em Eclipse
+- Depuração de aplicações: “Ashling RiscFree IDE para Intel FPGAs (free)” ou plugin de depuração de código aberto suporta Intel HAL
+- O Ashling RiscFree IDE é uma IDE de arquitetura de processadores RISC-V
+- Intel HAL (Hardware Abstraction Layer) é uma camada de software que facilita a comunicação entre o sistema operacional e o hardware do FPGA
 
 
 
