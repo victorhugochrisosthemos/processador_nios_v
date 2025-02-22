@@ -1,4 +1,4 @@
-# Nios V
+# [Nios V](https://www.macnica.co.jp/en/business/semiconductor/manufacturers/altera/products/141802/)
 ![nios-v-blog-graphic](https://github.com/user-attachments/assets/1f35953b-1c1e-40ae-8088-1629803329d3)
 - Nios V é um processador de arquitetura RISC-V da Intel utilizado em FPGA’s, permitindo a customização de projetos de hardware
 - Faz parte da geração softcore da Intel
@@ -70,7 +70,7 @@ programar FPGAs. Com ele pode criar, gerar simulações e implementar circuitos 
 utilizando Quartus Prime para configurar e programar o FPGA e o RiscFree para desenvolver e depurar código para o processador RISC-V dentro da FPGA.
 
 ### 2.2. RiscFree
-
+- [Projeto com Ashling RiscFree](https://malt.zendesk.com/hc/ja/articles/9280647796761-Ashling-RiscFree-IDE-%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%97%E3%81%9F-Nios-V-%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E9%96%8B%E7%99%BA%E6%89%8B%E9%A0%86)
 - O RiscFree IDE fornece um ambiente para desenvolvimento de software em C e C++
 - IDE baseado em CDT Eclipse* com suporte completo de criação, edição, compilação e depuração de código-fonte e projeto usando a cadeia de ferramentas RISC-V GNU compilador collection (GCC)
 - Gerente de Projeto e Build Manager, incluindo suporte a Make e CMake com importação, compilação e depuração de estruturas de aplicativos criadas usando o Intel Quartus Prime software
@@ -86,7 +86,23 @@ utilizando Quartus Prime para configurar e programar o FPGA e o RiscFree para de
 - Ao baixar, selecione os módulos de desenvolvimento necessários
 
 
+<!-- 
+- Quando se pensa em automatização com hardware, considera-se o uso de FPGA's para customizar circuitos integrados
+- O uso do Nios V em FPGA pode ser uma solução mais econômica do que projetar um processador ASIC (Application-Specific Integrated Circuit)
+- Além disso, o fato do Nios V ser baseado arquitetura RISC-V permite o uso sem pagar licenciamento, podendo também adicionar instruções no processador, extensões como criptografia, etc
+- A tendência é de que até 2029 o mercado de FPGA chegue a mais de 12 bilhões de dólares, impulsionado pela alta implantação de data centers e demanda de IoT
+- Sobre o ecossistema IoT, no Brasil temos a Empresa Macnica
 
+
+Links:
+
+De acordo com tendência e previsões de crescimento de 2024 até 2029 pela Mordor Intelligence
+https://www.mordorintelligence.com/pt/industry-reports/field-programmable-gate-array-fpga-market
+
+
+
+
+-->
 
 
 
